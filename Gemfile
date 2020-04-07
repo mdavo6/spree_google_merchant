@@ -8,7 +8,7 @@ group :development, :test do
   gem 'poltergeist',      '~> 1.5'
 end
 
-gem 'spree', '~> 3.6.1'
-gem 'spree_auth_devise', '~> 3.3'
+gem 'spree', '~> 3.7.0'
+gem 'spree_auth_devise', '~> 3.5'
 
 gemspec
