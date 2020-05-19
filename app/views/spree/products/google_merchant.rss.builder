@@ -9,7 +9,7 @@ xml.rss "version" => "2.0", "xmlns:g" => "http://base.google.com/ns/1.0" do
     xml.link @production_domain
 
     @products.each do |product|
-      if product.google_merchant_include_variants
+      if product.has_variants?
         product.variants.each do |variant|
           xml.item do
             xml << render(:partial => 'product_attributes', :locals => { :variant => variant })
