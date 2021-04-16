@@ -9,6 +9,6 @@ group :development, :test do
 end
 
 gem 'spree', '~> 3.3.0'
-gem 'spree_auth_devise', '~> 3.2'
+gem 'spree_auth_devise', '~> 3.3'
 
 gemspec
